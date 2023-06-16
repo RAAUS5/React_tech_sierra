@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(./images/back-image.png);
+    background-position: center;
+    background-size: cover;
+    /* padding: 10px 10%; */
+    overflow: hidden;
+    position: relative;
+}
+nav{
+    padding: 10px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 140px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 400;
+}
+.login-btn{
+    text-decoration: none;
+    color: #333;
+    margin-right: 15px;
+    font-weight: 400;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 40px;
+    color: #fff;
+    background-image: linear-gradient(45deg,#df4881,#c430d7);
+    font-size: 14px;
+    border-radius: 30px;
+    border-top-right-radius: 0;
+    transition: 0.5s;
+}
+.content{
+    padding: 0 10%;
+    margin-top: 10%;
+    max-width: 600px;
+    /* background: #df4881; */
+}
+.content h1{
+    font-size: 70px;
+    color: #222;
+}
+.content p{
+    margin: 10px 0 30px;
+    color: #333;
+    animation-delay: 0.5s;
+}
+.content .btn{
+    padding: 15px 80px;
+    font-size: 16px;
+    animation-delay: 1s;
+}
+.btn:hover{
+    border-top-right-radius: 30px;
+}
+.Model{
+    width: 420px;
+    position: absolute;
+    bottom: 0;
+    right: 7%;
+    
+}
+.Model.animation{
+    animation-delay: 1.5s;
+}
+.animation{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+}
+
+footer {
+    padding: 10px 20px;
+    background: #666;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+#floatingTextarea{
+    margin-left: 5%;
+    height: 200px;
+    border: 1px solid;
+    max-width: 90%;
+}
+h3{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.btns{
+    margin-left: 5%;
+}
+h4{
+    margin-left: 5%;
+    font-size: 40px;
+    margin-top: 50px;
+}
+p{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 5%;
+}
+span{
+    margin-left: 5px;
+    font-size: 25px;
+    font-weight: 700;
+}
+@keyframes moveup{
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}

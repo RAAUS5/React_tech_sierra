@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main_box{
+    background:#badc58;
+    height: 100vh;
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.main{
+    background: #f7836f;
+}
+.center{
+    width: 30%;
+    height: 70vh;
+    background-color: #f4f4f4;
+    box-shadow: 5px 5px 25px -5px rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+
+}
+/* style for stopwatch  */
+.centers{
+    width: 30%;
+    height: 70vh;
+    background-color: #f4f4f4;
+    box-shadow: 5px 5px 25px -5px rgba(0,0,0,0.5);
+    border-radius: 5%;
+    
+}
+.Counter{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* end style for stopwatch  */
+h1{
+    color: #fff;
+    font-size: 50px;
+    /* background: transparent; */
+    background-color: #30336b;
+    width: 100%;
+    margin-top:-40px;
+    margin-bottom: 30px;
+    padding: 6px 0 2px 0;
+    box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.5);
+    
+}
+
+/* style for stopwatch  */
+.Timer{
+    margin:80px 0 50px;
+    font-size: 80px;
+}
+.min,.sec{
+    padding: 20px;
+    border-radius: 7%;
+    box-shadow: 5px 5px 15px -5px rgba(0,0,0,1);
+    background-color: #badc58;
+}
+.h2{
+    margin-top: 15px;
+}
+/* end style for stopwatch  */
+.btn_div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+button{
+    min-height: 40px;
+    border-radius: 5%;
+    width: 100px;
+    /* border-color: transparent; */
+    background-color: #30336b;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    padding: 0 15px;
+    margin-top: 30px;
+    box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.5);
+    transition: 0.5s;
+    border-radius: 10%;
+    color: #fff;
+    
+}
+button:hover{
+    background-color: aquamarine;
+}
+
+/* style for stopwatch  */
+.button:hover{
+    background-color: #30336b;
+}
+.button,.button2{
+    margin-top: 45px;
+    font-size: 30px;
+    text-align: center;
+    width: 150px;
+    padding: 20px;
+    box-shadow: 5px 5px 15px -5px rgba(0,0,0,1);
+    border-radius: 5% 0 0 5%;
+}
+
+.button{
+        border-radius: 0 5% 5% 0;
+}
+.resets{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+/* end style for stopwatch  */
+
+.actives{
+    color: red;
+    
+}
+.inactive{
+    color: blue;
+}
+
